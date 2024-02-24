@@ -1,0 +1,78 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#1877f2;
+    margin: 0;
+
+}
+h1{
+    color:rgb(14, 132, 179);
+    font-size: 24px;
+
+}
+p{
+    color: antiquewhite;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.profile-pic{
+    border-radius: 70%;
+    height: 100px;
+
+}
+.cover-photo{
+    background-image: url("./beauty.jpg");
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.profile-pic{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    background-image: url('profile-picture.jpg'); /* Add your profile picture URL here */
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.user-info{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.but{
+    background-color: #42b72a; /* Facebook green color */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+
+}
+.but:hover{
+    background-color: #363636;
+
+}
+button {
+    background-color: #42b72a; /* Facebook green color */
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+button:hover{
+    background-color: #363636;
+}
+
+    
+    
